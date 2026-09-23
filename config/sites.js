@@ -54,9 +54,9 @@ export default {
 			enabled: true,
 			description: "Replace these with the sites you want to measure.",
 			sites: [
-				{ name: "Eleventy", url: "https://www.11ty.dev/" },
-				{ name: "Speedlify", url: "https://www.speedlify.dev/" },
-				{ name: "zachleat.com", url: "https://www.zachleat.com/" },
+				{ name: "Annertech", url: "https://www.annertech.com/" },
+				{ name: "Tinkering Space", url: "https://tinkering.space/" },
+				{ name: "Open Code", url: "https://opencode.xyz/" },
 			],
 		},
 	},
