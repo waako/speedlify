@@ -1,0 +1,281 @@
+{
+  "url": "https://opencode.xyz/",
+  "name": "Open Code",
+  "group": "example",
+  "groupName": "Example",
+  "timestamp": 1790182694289,
+  "date": "2026-09-23T16:58:14.289Z",
+  "runId": "2026-09-23T16-58-06-693Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 44498,
+  "error": null,
+  "variance": {
+    "min": 92,
+    "max": 93,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://opencode.xyz/",
+    "finalUrl": "https://opencode.xyz/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 92,
+      "accessibility": 83,
+      "best-practices": 100,
+      "seo": 90,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2684,
+      "lcp": 2684,
+      "si": 2684,
+      "tbt": 0,
+      "tti": 2684,
+      "cls": 0.008,
+      "ttfb": 604,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 3,
+      "networkRtt": 0.1,
+      "networkServerLatency": 124.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 4.5,
+      "elementRenderDelay": 289
+    },
+    "weight": {
+      "total": 75643,
+      "requests": 9,
+      "mainDocument": 2071,
+      "byType": {
+        "total": {
+          "bytes": 75643,
+          "requests": 9
+        },
+        "font": {
+          "bytes": 42996,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 20875,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 9675,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 2071,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 26,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 66676,
+          "requests": 5
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 5,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 66676,
+      "mainThreadMs": 11.5,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 45775,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 42996,
+            "stylesheet": 2779
+          },
+          "typedBytes": 45775
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 20901,
+          "mainThreadMs": 11.5,
+          "byType": {
+            "script": 20875,
+            "other": 26
+          },
+          "typedBytes": 20901
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 252.4,
+      "byGroup": {
+        "other": 101.6,
+        "styleLayout": 78.2,
+        "scriptEvaluation": 53.8,
+        "parseHTML": 7.1,
+        "scriptParseCompile": 6.1,
+        "paintCompositeRender": 5.6
+      },
+      "bootupMs": 58,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 43,
+      "depth": 6,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2049,
+      "renderBlockingMs": 1025,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 21977.583333333336,
+      "poorlyCachedCount": 4
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 11,
+      "failingNodes": 10,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 8
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 7,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 1
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 2472.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-09-23T16:58:25.656Z",
+      "runtimeMs": 6135.6
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 566.6,
+    "elementRenderDelay": 735.3
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "bf852a39af31e32be4c96e8d3283d78a306c2688",
+      "x-github-request-id": "9C4C:1D7264:90B74:9F6BC:6AB404AB",
+      "x-served-by": "cache-iad-kiad7000031-IAD"
+    },
+    "violations": 16,
+    "passes": 85,
+    "incomplete": 4,
+    "violationRules": 4,
+    "version": "4.13.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 8,
+        "help": "Elements must meet minimum color contrast ratio thresholds"
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 6,
+        "help": "All page content should be contained by landmarks"
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one"
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark"
+      }
+    ],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
