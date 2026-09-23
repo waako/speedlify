@@ -1,0 +1,3 @@
+{"version":1,"url":"https://www.annertech.com/","updated":"2026-09-23T16:59:10.933Z","points":[
+{"t":1790182685349,"gen":"Drupal 11 (https://www.drupal.org)","performance":61,"accessibility":100,"best-practices":100,"seo":100,"lcp":6937,"cls":0,"tbt":179,"fcp":4837,"si":5554,"ttfb":712,"total":1047874,"requests":53,"bytes":282676,"mainThreadMs":92.6,"unusedJsBytes":126038,"unusedCssBytes":12731,"mainThreadTotal":1187.8,"longTasks":4,"elements":1809,"failingCount":0,"failingNodes":0,"axeViolations":15,"axePasses":1596,"bench":2330.5,"runs":3,"reqRuns":3,"ms":65501,"spread":0}
+]}
