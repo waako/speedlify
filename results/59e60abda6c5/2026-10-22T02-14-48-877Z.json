@@ -1,0 +1,248 @@
+{
+  "url": "https://www.annertech.com/",
+  "name": "Annertech",
+  "group": "example",
+  "groupName": "Example",
+  "timestamp": 1792635288877,
+  "date": "2026-10-22T02:14:48.877Z",
+  "runId": "2026-10-22T02-14-47-836Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 65027,
+  "error": null,
+  "variance": {
+    "min": 62,
+    "max": 64,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.annertech.com/",
+    "finalUrl": "https://www.annertech.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 62,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 4834,
+      "lcp": 7084,
+      "si": 5622,
+      "tbt": 101,
+      "tti": 7091,
+      "cls": 0,
+      "ttfb": 709,
+      "maxPotentialFid": 113,
+      "serverResponseTime": 145,
+      "networkRtt": 0.1,
+      "networkServerLatency": 150.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 146.7,
+      "resourceLoadDelay": 215.2,
+      "resourceLoadDuration": 430.8,
+      "elementRenderDelay": 1536.3
+    },
+    "weight": {
+      "total": 1053884,
+      "requests": 53,
+      "mainDocument": 410306,
+      "byType": {
+        "total": {
+          "bytes": 1053884,
+          "requests": 51
+        },
+        "document": {
+          "bytes": 411117,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 364810,
+          "requests": 25
+        },
+        "font": {
+          "bytes": 153028,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 98880,
+          "requests": 15
+        },
+        "other": {
+          "bytes": 16674,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 9375,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 289647,
+          "requests": 7
+        }
+      },
+      "scripts": 25,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 288836,
+      "mainThreadMs": 67.8,
+      "top": [
+        {
+          "entity": "Cookiebot",
+          "bytes": 147495,
+          "mainThreadMs": 37.2,
+          "byType": {
+            "script": 146867,
+            "other": 628
+          },
+          "typedBytes": 147495
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 140217,
+          "mainThreadMs": 30.4,
+          "byType": {
+            "script": 140217
+          },
+          "typedBytes": 140217
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 1124,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "script": 1124
+          },
+          "typedBytes": 1124
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1087.3,
+      "byGroup": {
+        "scriptEvaluation": 340.1,
+        "other": 257,
+        "styleLayout": 235.5,
+        "parseHTML": 123.1,
+        "scriptParseCompile": 109.5,
+        "paintCompositeRender": 17.2,
+        "garbageCollection": 4.9
+      },
+      "bootupMs": 379.4,
+      "longTasks": 4,
+      "longestTaskMs": 113
+    },
+    "dom": {
+      "elements": 1845,
+      "depth": 22,
+      "maxChildren": 503
+    },
+    "waste": {
+      "unusedJsBytes": 127689,
+      "unusedCssBytes": 14492,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 17963,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1676,
+      "renderBlockingCount": 11,
+      "poorlyCachedBytes": 340007.0660495292,
+      "poorlyCachedCount": 42
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 27,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 19
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 2490,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-10-22T02:15:13.235Z",
+      "runtimeMs": 10569.5
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 707.3,
+    "resourceLoadDelay": 38,
+    "resourceLoadDuration": 1421.9,
+    "elementRenderDelay": 22.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "drupal",
+      "name": "Drupal",
+      "icon": "Drupal",
+      "version": "11",
+      "source": "meta",
+      "raw": "Drupal 11 (https://www.drupal.org)"
+    },
+    "probe": {
+      "metas": [
+        "Drupal 11 (https://www.drupal.org)"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {},
+    "violations": 15,
+    "passes": 1601,
+    "incomplete": 33,
+    "violationRules": 1,
+    "version": "4.13.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 15,
+        "help": "All page content should be contained by landmarks"
+      }
+    ],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
