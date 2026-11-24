@@ -1,0 +1,229 @@
+{
+  "url": "https://tinkering.space/",
+  "name": "Tinkering Space",
+  "group": "example",
+  "groupName": "Example",
+  "timestamp": 1795483222840,
+  "date": "2026-11-24T01:20:22.840Z",
+  "runId": "2026-11-24T01-19-21-597Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 44230,
+  "error": null,
+  "variance": {
+    "min": 91,
+    "max": 99,
+    "spread": 8,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://tinkering.space/",
+    "finalUrl": "https://tinkering.space/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1264,
+      "lcp": 1864,
+      "si": 1264,
+      "tbt": 0,
+      "tti": 1864,
+      "cls": 0,
+      "ttfb": 482,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 162,
+      "networkRtt": 0,
+      "networkServerLatency": 32
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 163.9,
+      "elementRenderDelay": 143.3
+    },
+    "weight": {
+      "total": 153580,
+      "requests": 17,
+      "mainDocument": 8112,
+      "byType": {
+        "total": {
+          "bytes": 151769,
+          "requests": 14
+        },
+        "font": {
+          "bytes": 87075,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 33521,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 14653,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 8408,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 8112,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 202.8,
+      "byGroup": {
+        "other": 96.4,
+        "styleLayout": 53.3,
+        "scriptEvaluation": 18.4,
+        "parseHTML": 17.7,
+        "paintCompositeRender": 14.1,
+        "scriptParseCompile": 2.9
+      },
+      "bootupMs": 9,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 445,
+      "depth": 24,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 664,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 84266.28865921787,
+      "poorlyCachedCount": 13
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 25,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 19
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 3070.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-24T01:20:40.658Z",
+      "runtimeMs": 6433.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.5,
+    "elementRenderDelay": 514.9
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "drupal",
+      "name": "Drupal",
+      "icon": "Drupal",
+      "version": "11",
+      "source": "meta",
+      "raw": "Drupal 11 (https://www.drupal.org)"
+    },
+    "probe": {
+      "metas": [
+        "Drupal 11 (https://www.drupal.org)"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5f4983fae8ee937-ATL",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 724,
+    "incomplete": 14,
+    "violationRules": 1,
+    "version": "4.13.0",
+    "top": [
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading"
+      }
+    ],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
